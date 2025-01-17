@@ -1,0 +1,15 @@
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\bin\Debug\net8.0\App.Domain.Services.Service.deps.json
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\bin\Debug\net8.0\App.Domain.Services.Service.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\bin\Debug\net8.0\App.Domain.Services.Service.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.csproj.AssemblyReference.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.AssemblyInfoInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.AssemblyInfo.cs
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.csproj.CoreCompileInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Doma.C078D83F.Up2Date
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\refint\App.Domain.Services.Service.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\ref\App.Domain.Services.Service.dll

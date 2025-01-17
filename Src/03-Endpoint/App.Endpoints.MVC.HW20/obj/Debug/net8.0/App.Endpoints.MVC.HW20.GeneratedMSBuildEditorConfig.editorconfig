@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = App.Endpoints.MVC.HW20
+build_property.RootNamespace = App.Endpoints.MVC.HW20
+build_property.ProjectDir = C:\Users\shaha\source\repos\HW20\HW-Week20\Src\03-Endpoint\App.Endpoints.MVC.HW20\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\shaha\source\repos\HW20\HW-Week20\Src\03-Endpoint\App.Endpoints.MVC.HW20
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/CarModel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/CarModel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/CarModel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/CarModel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/InspectionRequest/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdGlvblJlcXVlc3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/InspectionRequest/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdGlvblJlcXVlc3RcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/Operator/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0b3JcRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/Operator/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0b3JcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shaha/source/repos/HW20/HW-Week20/Src/03-Endpoint/App.Endpoints.MVC.HW20/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lwi142p9rf

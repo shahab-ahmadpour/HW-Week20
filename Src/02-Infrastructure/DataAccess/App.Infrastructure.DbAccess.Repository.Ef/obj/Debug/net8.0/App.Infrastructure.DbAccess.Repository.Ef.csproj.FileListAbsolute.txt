@@ -1,0 +1,17 @@
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.deps.json
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\bin\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.csproj.AssemblyReference.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.AssemblyInfoInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.AssemblyInfo.cs
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.csproj.CoreCompileInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infr.74408C93.Up2Date
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\refint\App.Infrastructure.DbAccess.Repository.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\ref\App.Infrastructure.DbAccess.Repository.Ef.dll

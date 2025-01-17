@@ -1,0 +1,153 @@
+﻿@model App.Domain.Core.Request.Entity.InspectionRequest
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-image: url(https://img.freepik.com/free-photo/car-accessories-with-copy-space_23-2149030400.jpg?t=st=1737023636~exp=1737027236~hmac=c38c825fd2f2640f64de20f9b500a2717b5ca7c7b0660ef0f062e7a85ca2a411&w=2000);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.3); 
+        max-width: 800px;
+        margin: auto; 
+    }
+
+    .glass-card h1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="glass-card">
+        <h1>ثبت درخواست معاینه فنی</h1>
+
+        <form asp-action="Create" method="post" class="mt-4">
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="PhoneNumber" class="form-label">شماره همراه:</label>
+                    <input asp-for="PhoneNumber" class="form-control" id="PhoneNumber" placeholder="شماره همراه باید با 09 شروع شود" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="NationalId" class="form-label">کد ملی مالک:</label>
+                    <input asp-for="NationalId" class="form-control" id="NationalId" placeholder="کد ملی 11 رقمی خود را وارد کنید" />
+                    <span asp-validation-for="NationalId" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label class="form-label">پلاک خودرو:</label>
+                    <div class="d-flex align-items-center">
+                        <input asp-for="Car.LicensePlatePart1" maxlength="2" class="form-control text-center" style="max-width: 60px;" />
+                        <select asp-for="Car.LicensePlateLetter" class="form-select mx-2" style="max-width: 100px;">
+                            <option value="">انتخاب</option>
+                            <option value="ب">ب</option>
+                            <option value="ج">ج</option>
+                            <option value="د">د</option>
+                            <option value="ژ">ژ</option>
+                            <option value="س">س</option>
+                            <option value="ص">ص</option>
+                            <option value="ط">ط</option>
+                            <option value="ق">ق</option>
+                            <option value="ل">ل</option>
+                            <option value="م">م</option>
+                            <option value="ن">ن</option>
+                            <option value="و">و</option>
+                            <option value="هـ">هـ</option>
+                            <option value="ی">ی</option>
+                        </select>
+                        <input asp-for="Car.LicensePlatePart2" maxlength="3" class="form-control text-center" style="max-width: 80px;" />
+                        <span class="mx-2">ایران</span>
+                        <input asp-for="Car.LicensePlatePart3" maxlength="2" class="form-control text-center" style="max-width: 60px;" />
+                    </div>
+                    <span asp-validation-for="Car.LicensePlatePart1" class="text-danger"></span>
+                    <span asp-validation-for="Car.LicensePlateLetter" class="text-danger"></span>
+                    <span asp-validation-for="Car.LicensePlatePart2" class="text-danger"></span>
+                    <span asp-validation-for="Car.LicensePlatePart3" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="Model" class="form-label">مدل خودرو:</label>
+                    <select asp-for="Car.Model" class="form-select" id="Model">
+                        <option value="">انتخاب کنید</option>
+                        @if (ViewBag.CarModels != null && ViewBag.CarModels.Count > 0)
+                        {
+                            foreach (var carModel in (List<App.Domain.Core.Cars.Entity.CarModel>)ViewBag.CarModels)
+                            {
+                                <option value="@carModel.Name">@carModel.Name</option>
+                            }
+                        }
+                        else
+                        {
+                            <option value="">هیچ مدلی در دسترس نیست</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Car.Model" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="Car.ProductionYear" class="form-label">سال تولید:</label>
+                    <input asp-for="Car.ProductionYear" type="number" class="form-control" id="Car.ProductionYear" />
+                    <span asp-validation-for="Car.ProductionYear" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="Car.Manufacturers" class="form-label">شرکت سازنده:</label>
+                    <select asp-for="Car.Manufacturers" class="form-select" id="Car.Manufacturers">
+                        <option value="">انتخاب کنید</option>
+                        <option value="IranKhodro">ایران‌خودرو</option>
+                        <option value="Saipa">سایپا</option>
+                    </select>
+                    <span asp-validation-for="Car.Manufacturers" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="Address" class="form-label">آدرس:</label>
+                    <textarea asp-for="Address" class="form-control" id="Address"></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-success w-40">ثبت درخواست</button>
+                </div>
+            </div>
+        </form>
+
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger mt-3">@ViewBag.ErrorMessage</div>
+        }
+
+        @if (ViewBag.SuccessMessage != null)
+        {
+            <div class="alert alert-success mt-3">@ViewBag.SuccessMessage</div>
+        }
+    </div>
+</div>

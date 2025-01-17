@@ -1,0 +1,55 @@
+﻿@model List<App.Domain.Core.Request.Entity.InspectionRequest>
+
+
+<style>
+    body {
+        background-color: lightgray
+    }
+</style>
+
+<div class="container mt-5">
+    <h1 class="text-center">داشبورد اپراتور</h1>
+    <a asp-controller="CarModel" asp-action="Index" class="btn btn-primary">ویرایش مدل‌های ماشین</a>
+    <table class="table table-striped mt-4">
+        <thead class="table-dark">
+            <tr>
+                <th>شناسه</th>
+                <th>پلاک</th>
+                <th>مدل</th>
+                <th>تاریخ</th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var request in Model)
+            {
+                <tr>
+                    <td>@request.Id</td>
+                    <td>@request.Car.LicensePlate</td>
+                    <td>@request.Car.Model</td>
+                    <td>@request.Date.ToString("yyyy-MM-dd")</td>
+                    <td>@request.Status</td>
+                    <td>
+                        @if (request.Status == App.Domain.Core.Request.Enums.RequestStatus.Pending)
+                        {
+                            <form asp-action="Approve" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@request.Id" />
+                                <button type="submit" class="btn btn-success btn-sm">تأیید</button>
+                            </form>
+                            <form asp-action="Reject" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@request.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">رد</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span>تغییر وضعیت امکان‌پذیر نیست</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

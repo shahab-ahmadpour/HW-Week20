@@ -1,0 +1,11 @@
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\bin\Debug\net8.0\App.Domain.Core.deps.json
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.AssemblyInfo.cs
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\refint\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\ref\App.Domain.Core.dll

@@ -1,0 +1,17 @@
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.deps.json
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.runtimeconfig.json
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\bin\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.csproj.AssemblyReference.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.AssemblyInfoInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.AssemblyInfo.cs
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.csproj.CoreCompileInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infr.5DA2EAB7.Up2Date
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\refint\App.Infrastructure.Db.SqlServer.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.genruntimeconfig.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\ref\App.Infrastructure.Db.SqlServer.Ef.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\App.Endpoints.MVC.HW20.props" />
+</Project>

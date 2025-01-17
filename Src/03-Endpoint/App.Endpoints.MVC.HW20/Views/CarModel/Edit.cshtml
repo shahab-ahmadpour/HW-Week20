@@ -1,0 +1,24 @@
+﻿@model App.Domain.Core.Cars.Entity.CarModel
+
+<style>
+    body {
+        background-color: lightgray
+    }
+</style>
+
+<div class="container mt-5">
+    <h1 class="text-center">ویرایش مدل ماشین</h1>
+
+    <form asp-action="Edit" method="post" class="mt-4">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label for="Name" class="form-label">نام مدل:</label>
+            <input asp-for="Name" class="form-control" id="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success">ذخیره تغییرات</button>
+        <a asp-action="Index" class="btn btn-secondary">بازگشت</a>
+    </form>
+</div>

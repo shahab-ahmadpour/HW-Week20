@@ -1,0 +1,15 @@
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\bin\Debug\net8.0\App.Domain.Services.AppService.deps.json
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\bin\Debug\net8.0\App.Domain.Services.AppService.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\bin\Debug\net8.0\App.Domain.Services.AppService.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\bin\Debug\net8.0\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\bin\Debug\net8.0\App.Domain.Core.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\App.Domain.Services.AppService.csproj.AssemblyReference.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\App.Domain.Services.AppService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\App.Domain.Services.AppService.AssemblyInfoInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\App.Domain.Services.AppService.AssemblyInfo.cs
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\App.Domain.Services.AppService.csproj.CoreCompileInputs.cache
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\App.Doma.239BEC7E.Up2Date
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\App.Domain.Services.AppService.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\refint\App.Domain.Services.AppService.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\App.Domain.Services.AppService.pdb
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.AppService\obj\Debug\net8.0\ref\App.Domain.Services.AppService.dll

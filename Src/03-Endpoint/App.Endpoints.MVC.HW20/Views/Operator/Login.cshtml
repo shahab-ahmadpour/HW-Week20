@@ -1,0 +1,50 @@
+﻿@model App.Endpoints.MVC.HW20.Models.LoginViewModel
+
+
+<style>
+    body {
+
+        background-color : lightgray .glass-card
+    }
+
+    .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .glass-card h1 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+
+<div class="container mt-5">
+   <div class="glass-card">
+    <h1 class="text-center">ورود اپراتور</h1>
+    <form asp-action="Login" method="post" class="mt-4">
+        <div class="mb-3">
+            <label asp-for="Username" class="form-label">نام کاربری:</label>
+            <input asp-for="Username" class="form-control" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label">رمز عبور:</label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary w-40">ورود</button>
+    </form>
+
+    @if (Model != null && !string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger mt-3">@Model.ErrorMessage</div>
+    }
+  </div>
+</div>

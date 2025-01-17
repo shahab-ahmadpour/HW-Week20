@@ -1,0 +1,19 @@
+﻿@model App.Domain.Core.Cars.Entity.CarModel
+
+<style>
+    body {
+        background-color: lightgray
+    }
+</style>
+
+<div class="container mt-5">
+    <h1 class="text-center text-danger">حذف مدل ماشین</h1>
+
+    <p>آیا مطمئن هستید که می‌خواهید مدل <strong>@Model.Name</strong> را حذف کنید؟</p>
+
+    <form asp-action="DeleteConfirmed" method="post" class="mt-4">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">حذف</button>
+        <a asp-action="Index" class="btn btn-secondary">بازگشت</a>
+    </form>
+</div>

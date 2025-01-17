@@ -1,0 +1,50 @@
+﻿@model App.Endpoints.MVC.HW20.Models.CarModelViewModel
+
+<style>
+    body {
+        background-color: lightgray
+    }
+</style>
+
+<div class="container mt-5">
+    <h1 class="text-center">مدیریت مدل‌های ماشین</h1>
+
+    <a asp-action="Create" class="btn btn-success mb-3">اضافه کردن مدل جدید</a>
+    <a asp-controller="Operator" asp-action="Dashboard" class="btn btn-secondary mb-3">بازگشت به داشبورد اصلی</a>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>شناسه</th>
+                <th>نام مدل</th>
+                <th>عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.CarModels != null && Model.CarModels.Any())
+            {
+                foreach (var carModel in Model.CarModels)
+                {
+                    <tr>
+                        <td>@carModel.Id</td>
+                        <td>@carModel.Name</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@carModel.Id" class="btn btn-primary btn-sm me-1">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@carModel.Id" class="btn btn-danger btn-sm">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" class="text-center">مدلی وجود ندارد.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
