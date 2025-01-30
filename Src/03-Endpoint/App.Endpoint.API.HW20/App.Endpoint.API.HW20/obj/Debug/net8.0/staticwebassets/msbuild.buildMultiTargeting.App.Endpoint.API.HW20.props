@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\App.Endpoint.API.HW20.props" />
+</Project>

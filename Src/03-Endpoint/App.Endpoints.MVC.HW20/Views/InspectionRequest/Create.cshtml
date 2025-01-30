@@ -36,17 +36,17 @@
 
         <form asp-action="Create" method="post" class="mt-4">
             <div class="row mb-3">
-                <div class="col">
-                    <label for="PhoneNumber" class="form-label">شماره همراه:</label>
-                    <input asp-for="PhoneNumber" class="form-control" id="PhoneNumber" placeholder="شماره همراه باید با 09 شروع شود" />
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" class="form-label">شماره همراه</label>
+                    <input asp-for="PhoneNumber" class="form-control" />
                     <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                 </div>
             </div>
 
             <div class="row mb-3">
-                <div class="col">
-                    <label for="NationalId" class="form-label">کد ملی مالک:</label>
-                    <input asp-for="NationalId" class="form-control" id="NationalId" placeholder="کد ملی 11 رقمی خود را وارد کنید" />
+                <div class="form-group">
+                    <label asp-for="NationalId" class="form-label">کدملی</label>
+                    <input asp-for="NationalId" class="form-control" />
                     <span asp-validation-for="NationalId" class="text-danger"></span>
                 </div>
             </div>

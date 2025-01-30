@@ -42,5 +42,9 @@ namespace App.Domain.Services.Service.CarModelSer
         {
             _carModelRepository.Delete(id);
         }
+        public bool IsCarModelUsed(int id)
+        {
+            return _carModelRepository.IsCarModelUsed(id);
+        }
     }
 }

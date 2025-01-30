@@ -15,3 +15,4 @@ C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastr
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.pdb
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.genruntimeconfig.cache
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\ref\App.Infrastructure.Db.SqlServer.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\Db\App.Infrastructure.Db.SqlServer.Ef\obj\Debug\net8.0\App.Infrastructure.Db.SqlServer.Ef.sourcelink.json

@@ -155,3 +155,4 @@ C:\Users\shaha\source\repos\HW20\HW-Week20\Src\03-Endpoint\App.Endpoints.MVC.HW2
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\03-Endpoint\App.Endpoints.MVC.HW20\obj\Debug\net8.0\App.Endpoints.MVC.HW20.pdb
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\03-Endpoint\App.Endpoints.MVC.HW20\obj\Debug\net8.0\App.Endpoints.MVC.HW20.genruntimeconfig.cache
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\03-Endpoint\App.Endpoints.MVC.HW20\obj\Debug\net8.0\ref\App.Endpoints.MVC.HW20.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\03-Endpoint\App.Endpoints.MVC.HW20\obj\Debug\net8.0\App.Endpoints.MVC.HW20.sourcelink.json

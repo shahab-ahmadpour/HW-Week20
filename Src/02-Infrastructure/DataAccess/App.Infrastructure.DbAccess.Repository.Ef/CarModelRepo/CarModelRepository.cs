@@ -27,7 +27,6 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.CarModelRepo
         {
             return _dbContext.CarModels.FirstOrDefault(x => x.Id == id);
         }
-
         public void Add(CarModel carModel)
         {
             _dbContext.CarModels.Add(carModel);
@@ -36,18 +35,34 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.CarModelRepo
 
         public void Update(CarModel carModel)
         {
-            _dbContext.CarModels.Update(carModel);
-            _dbContext.SaveChanges();
-        }
+            var existingCarModel = _dbContext.CarModels.FirstOrDefault(c => c.Id == carModel.Id);
 
-        public void Delete(int id)
-        {
-            var carModel = GetById(id);
-            if (carModel != null)
+            if (existingCarModel != null) 
             {
-                _dbContext.CarModels.Remove(carModel);
+                existingCarModel.Name = carModel.Name;
                 _dbContext.SaveChanges();
             }
         }
+
+
+        public void Delete(int id)
+        {
+            var model = _dbContext.CarModels.Find(id);
+            if (model != null)
+            {
+                _dbContext.CarModels.Remove(model);
+                _dbContext.SaveChanges();
+            }
+        }
+        public bool IsCarModelUsed(int carModelId)
+        {
+            var carModel = _dbContext.CarModels.FirstOrDefault(c => c.Id == carModelId);
+
+            if (carModel == null)
+                return false;
+
+            return _dbContext.InspectionRequests.Any(r => r.Car.Model == carModel.Name);
+        }
+
     }
 }

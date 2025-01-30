@@ -9,3 +9,4 @@ C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\ob
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\refint\App.Domain.Core.dll
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.pdb
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\ref\App.Domain.Core.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Core\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.sourcelink.json

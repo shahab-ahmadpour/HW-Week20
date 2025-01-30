@@ -15,3 +15,4 @@ C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\refint\App.Infrastructure.DbAccess.Repository.Ef.dll
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.pdb
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\ref\App.Infrastructure.DbAccess.Repository.Ef.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\02-Infrastructure\DataAccess\App.Infrastructure.DbAccess.Repository.Ef\obj\Debug\net8.0\App.Infrastructure.DbAccess.Repository.Ef.sourcelink.json

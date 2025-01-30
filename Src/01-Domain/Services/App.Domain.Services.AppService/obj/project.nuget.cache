@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "56WdDVdIbyk=",
+  "dgSpecHash": "qjV8Do4oilY=",
   "success": true,
   "projectFilePath": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

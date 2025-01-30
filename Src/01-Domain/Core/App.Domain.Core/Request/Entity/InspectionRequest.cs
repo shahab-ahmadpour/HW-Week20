@@ -1,5 +1,6 @@
 ﻿using App.Domain.Core.Cars.Entity;
 using App.Domain.Core.Request.Enums;
+using App.Domain.Core.Request.Validation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -13,17 +14,15 @@ namespace App.Domain.Core.Request.Entity
     {
         public int Id { get; set; }
 
-
-        [Required(ErrorMessage = "کد ملی الزامی است.")]
-        [StringLength(10, MinimumLength = 10, ErrorMessage = "کد ملی باید 10 رقم باشد.")]
-        [RegularExpression("^[0-9]{10}$", ErrorMessage = "کد ملی فقط باید شامل اعداد باشد.")]
-        public string NationalId { get; set; }
-
-
         [Required(ErrorMessage = "شماره تماس الزامی است.")]
-        [StringLength(11, MinimumLength = 11, ErrorMessage = "شماره تماس باید 11 رقم باشد.")]
+        [StringLength(11, MinimumLength = 11)]
+        [PhoneNumber]
         public string PhoneNumber { get; set; }
 
+        [Required(ErrorMessage = "کد ملی الزامی است.")]
+        [StringLength(10, MinimumLength = 10)]
+        [NationalId]
+        public string NationalId { get; set; }
 
         public DateTime Date { get; set; }
         [Required(ErrorMessage = "آدرس الزامی است.")]

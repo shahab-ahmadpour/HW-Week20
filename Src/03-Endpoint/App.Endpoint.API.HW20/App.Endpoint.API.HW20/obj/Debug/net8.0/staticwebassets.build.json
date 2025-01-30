@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ljxVZBb02Lpacyh+djdOqmM4/hWJNPmUI0aCtxJEkDY=",
+  "Source": "App.Endpoint.API.HW20",
+  "BasePath": "_content/App.Endpoint.API.HW20",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

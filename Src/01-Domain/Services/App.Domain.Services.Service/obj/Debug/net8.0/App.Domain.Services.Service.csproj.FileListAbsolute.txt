@@ -13,3 +13,4 @@ C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Ser
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\refint\App.Domain.Services.Service.dll
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.pdb
 C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\ref\App.Domain.Services.Service.dll
+C:\Users\shaha\source\repos\HW20\HW-Week20\Src\01-Domain\Services\App.Domain.Services.Service\obj\Debug\net8.0\App.Domain.Services.Service.sourcelink.json

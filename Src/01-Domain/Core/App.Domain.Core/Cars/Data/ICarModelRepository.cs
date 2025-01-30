@@ -14,5 +14,6 @@ namespace App.Domain.Core.Cars.Data
         void Add(CarModel carModel);
         void Update(CarModel carModel);
         void Delete(int id);
+        bool IsCarModelUsed(int id);
     }
 }

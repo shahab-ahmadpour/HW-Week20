@@ -10,15 +10,19 @@ namespace App.Domain.Core.OpResult
     {
         public bool IsSuccess { get; set; }
         public string Message { get; set; }
-
-        public static OperationResult Success(string message = "Operation completed successfully.")
+        public OperationResult(bool isSuccess, string message)
         {
-            return new OperationResult { IsSuccess = true, Message = message };
+            IsSuccess = isSuccess;
+            Message = message;
+        }
+        public static OperationResult Success(string message)
+        {
+            return new OperationResult(true, message);
         }
 
-        public static OperationResult Failure(string message = "An error occurred.")
+        public static OperationResult Failure(string message)
         {
-            return new OperationResult { IsSuccess = false, Message = message };
+            return new OperationResult(false, message);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App.Domain.Core.Cars.Validation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -14,21 +15,21 @@ namespace App.Domain.Core.Cars.Entity
         public int Id { get; set; }
 
         [Required(ErrorMessage = "بخش اول پلاک خودرو الزامی است.")]
-        [StringLength(2, MinimumLength = 2, ErrorMessage = "این بخش فقط 2 عدد باید باشد")]
-        [RegularExpression("^[0-9]{10}$", ErrorMessage = "پلاک فقط باید شامل اعداد باشد.")]
+        [StringLength(2, MinimumLength = 2)]
+        [LicensePlatePart1Validation]
         public string LicensePlatePart1 { get; set; }
 
         [Required(ErrorMessage = "حرف پلاک خودرو الزامی است.")]
         public string LicensePlateLetter { get; set; }
 
         [Required(ErrorMessage = "بخش دوم پلاک خودرو الزامی است.")]
-        [StringLength(3, MinimumLength = 3, ErrorMessage = "این بخش فقط 3 عدد باید باشد")]
-        [RegularExpression("^[0-9]{10}$", ErrorMessage = "پلاک فقط باید شامل اعداد باشد.")]
+        [StringLength(3, MinimumLength = 3)]
+        [LicensePlatePart2Validation]
         public string LicensePlatePart2 { get; set; }
 
         [Required(ErrorMessage = "بخش سوم پلاک خودرو الزامی است.")]
-        [StringLength(2, MinimumLength = 2, ErrorMessage = "این بخش فقط 2 عدد باید باشد")]
-        [RegularExpression("^[0-9]{10}$", ErrorMessage = "پلاک فقط باید شامل اعداد باشد.")]
+        [StringLength(2, MinimumLength = 2)]
+        [LicensePlatePart3Validation]
         public string LicensePlatePart3 { get; set; }
 
         [Required(ErrorMessage = "مدل خودرو الزامی است.")]

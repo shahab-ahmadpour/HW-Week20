@@ -14,5 +14,7 @@ namespace App.Domain.Core.Cars.Service
         void CreateModel(CarModel carModel);
         void UpdateModel(CarModel carModel);
         void DeleteModel(int id);
+        bool IsCarModelUsed(int id);
+
     }
 }

@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.Services.Service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.Services.AppService", "Src\01-Domain\Services\App.Domain.Services.AppService\App.Domain.Services.AppService.csproj", "{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Endpoint.API.HW20", "Src\03-Endpoint\App.Endpoint.API.HW20\App.Endpoint.API.HW20\App.Endpoint.API.HW20.csproj", "{6DB96945-E471-4C57-9492-D8D4AF9981F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB96945-E471-4C57-9492-D8D4AF9981F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB96945-E471-4C57-9492-D8D4AF9981F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB96945-E471-4C57-9492-D8D4AF9981F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB96945-E471-4C57-9492-D8D4AF9981F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,5 +89,6 @@ Global
 		{4960EE23-AF3F-4995-9224-D4E408FFF70B} = {F8096C26-1745-4053-BE3E-3066240281A9}
 		{0370D51D-28EA-4741-836B-3190A2B8BB71} = {3154B4D9-8604-4AB4-AF45-0BB2BC3ECC3C}
 		{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E} = {3154B4D9-8604-4AB4-AF45-0BB2BC3ECC3C}
+		{6DB96945-E471-4C57-9492-D8D4AF9981F3} = {3486FCC6-E642-47DC-B888-DA46AB6ED354}
 	EndGlobalSection
 EndGlobal
