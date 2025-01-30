@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "App.Endpoints.API.Controllers.CarModelController",
-    "Method": "GetAllModels",
+    "Method": "GetAllModelsAsync",
     "RelativePath": "api/CarModel",
     "HttpMethod": "GET",
     "IsController": true,
@@ -32,7 +32,7 @@
   },
   {
     "ContainingType": "App.Endpoints.API.Controllers.CarModelController",
-    "Method": "Create",
+    "Method": "CreateAsync",
     "RelativePath": "api/CarModel",
     "HttpMethod": "POST",
     "IsController": true,
@@ -69,7 +69,7 @@
   },
   {
     "ContainingType": "App.Endpoints.API.Controllers.CarModelController",
-    "Method": "GetById",
+    "Method": "GetByIdAsync",
     "RelativePath": "api/CarModel/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -110,7 +110,7 @@
   },
   {
     "ContainingType": "App.Endpoints.API.Controllers.CarModelController",
-    "Method": "Edit",
+    "Method": "EditAsync",
     "RelativePath": "api/CarModel/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -152,7 +152,7 @@
   },
   {
     "ContainingType": "App.Endpoints.API.Controllers.CarModelController",
-    "Method": "Delete",
+    "Method": "DeleteAsync",
     "RelativePath": "api/CarModel/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,

@@ -9,11 +9,11 @@ namespace App.Domain.Core.Cars.Data
 {
     public interface ICarModelRepository
     {
-        List<CarModel> GetAll();
-        CarModel GetById(int id);
-        void Add(CarModel carModel);
-        void Update(CarModel carModel);
-        void Delete(int id);
-        bool IsCarModelUsed(int id);
+        Task<List<CarModel>> GetAllAsync();
+        Task<CarModel> GetByIdAsync(int id);
+        Task AddAsync(CarModel carModel);
+        Task UpdateAsync(CarModel carModel);
+        Task DeleteAsync(int id);
+        Task<bool> IsCarModelUsedAsync(int carModelId);
     }
 }

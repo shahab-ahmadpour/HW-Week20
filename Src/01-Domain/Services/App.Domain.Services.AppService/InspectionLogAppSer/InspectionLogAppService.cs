@@ -18,21 +18,19 @@ namespace App.Domain.Services.AppService.InspectionLogAppSer
         {
             _logService = logService;
         }
-
-        public InspectionLog GetLogDetails(int id)
+        public async Task<InspectionLog> GetLogDetailsAsync(int id)
         {
-            return _logService.GetLogById(id);
+            return await _logService.GetLogByIdAsync(id);
         }
 
-        public List<InspectionLog> GetAllLogs()
+        public async Task<List<InspectionLog>> GetAllLogsAsync()
         {
-            return _logService.GetAllLogs();
+            return await _logService.GetAllLogsAsync();
         }
 
-        public OperationResult CreateLog(InspectionLog log)
+        public async Task<OperationResult> CreateLogAsync(InspectionLog log)
         {
-            return _logService.AddLog(log);
+            return await _logService.AddLogAsync(log);
         }
-
     }
 }

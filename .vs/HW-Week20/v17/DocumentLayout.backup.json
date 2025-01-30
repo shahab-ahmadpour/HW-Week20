@@ -3,20 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\controllers\\carmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\controllers\\carmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\carmodelrepo\\carmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\carmodelrepo\\carmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoints.mvc.hw20\\controllers\\operatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoints.mvc.hw20\\controllers\\operatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.appservice\\operatorappser\\operatorappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.appservice\\operatorappser\\operatorappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\operators\\appservice\\ioperatorappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\operators\\appservice\\ioperatorappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\operators\\service\\ioperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\operators\\service\\ioperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.service\\operatorser\\operatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.service\\operatorser\\operatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\operatorrepo\\operatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\operatorrepo\\operatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\operators\\data\\ioperatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\operators\\data\\ioperatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.appservice\\inspectionreqappser\\inspectionrequestappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.appservice\\inspectionreqappser\\inspectionrequestappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\controllers\\carmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\controllers\\carmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.service\\inspectionlogser\\inspectionlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.service\\inspectionlogser\\inspectionlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.appservice\\inspectionlogappser\\inspectionlogappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.appservice\\inspectionlogappser\\inspectionlogappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\log\\appservice\\iinspectionlogappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\log\\appservice\\iinspectionlogappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\log\\service\\iinspectionlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\log\\service\\iinspectionlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.appservice\\app.domain.services.appservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.appservice\\app.domain.services.appservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\inspectionlogrepo\\inspectionlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\inspectionlogrepo\\inspectionlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\log\\data\\iinspectionlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\log\\data\\iinspectionlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoints.mvc.hw20\\controllers\\inspectionrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoints.mvc.hw20\\controllers\\inspectionrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\request\\appservice\\iinspectionrequestappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\request\\appservice\\iinspectionrequestappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.service\\inspectionreqser\\inspectionrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.service\\inspectionreqser\\inspectionrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\request\\service\\iinspectionrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\request\\service\\iinspectionrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\inspectionrequestrepo\\inspectionrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\inspectionrequestrepo\\inspectionrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\request\\data\\iinspectionrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\request\\data\\iinspectionrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoints.mvc.hw20\\controllers\\carmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoints.mvc.hw20\\controllers\\carmodelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\cars\\appservice\\icarmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\cars\\appservice\\icarmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\cars\\service\\icarmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\cars\\service\\icarmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.service\\carmodelser\\carmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.service\\carmodelser\\carmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.appservice\\carmodelappser\\carmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.appservice\\carmodelappser\\carmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoints.mvc.hw20\\app.endpoints.mvc.hw20.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoints.mvc.hw20\\app.endpoints.mvc.hw20.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\carmodelrepo\\carmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\carmodelrepo\\carmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\cars\\data\\icarmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\cars\\data\\icarmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\cars\\entity\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,24 +143,8 @@
       "RelativeMoniker": "D:0:0:{6DB96945-E471-4C57-9492-D8D4AF9981F3}|Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoint.api.hw20\\app.endpoint.api.hw20\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\cars\\service\\icarmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\cars\\service\\icarmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.appservice\\carmodelappser\\carmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DB45A6F-741C-4A8D-A60E-F1347BE83A5E}|Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.appservice\\carmodelappser\\carmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoints.mvc.hw20\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoints.mvc.hw20\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\03-endpoint\\app.endpoints.mvc.hw20\\controllers\\inspectionrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E688FA1-91D0-4D7E-8313-46D6A934E816}|Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj|solutionrelative:src\\03-endpoint\\app.endpoints.mvc.hw20\\controllers\\inspectionrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.service\\inspectionreqser\\inspectionrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.service\\inspectionreqser\\inspectionrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\opresult\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,18 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.service\\carser\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.service\\carser\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\inspectionrequestrepo\\inspectionrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4960EE23-AF3F-4995-9224-D4E408FFF70B}|Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\App.Infrastructure.DbAccess.Repository.Ef.csproj|solutionrelative:src\\02-infrastructure\\dataaccess\\app.infrastructure.dbaccess.repository.ef\\inspectionrequestrepo\\inspectionrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\services\\app.domain.services.service\\carmodelser\\carmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0370D51D-28EA-4741-836B-3190A2B8BB71}|Src\\01-Domain\\Services\\App.Domain.Services.Service\\App.Domain.Services.Service.csproj|solutionrelative:src\\01-domain\\services\\app.domain.services.service\\carmodelser\\carmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\shaha\\source\\repos\\hw20\\hw-week20\\src\\01-domain\\core\\app.domain.core\\cars\\data\\icarmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D57871F-DEAD-41CA-8632-3C2A36390B8A}|Src\\01-Domain\\Core\\App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:src\\01-domain\\core\\app.domain.core\\cars\\data\\icarmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,48 +166,401 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CarModelAppService.cs",
-              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\CarModelAppSer\\CarModelAppService.cs",
-              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\CarModelAppSer\\CarModelAppService.cs",
-              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\CarModelAppSer\\CarModelAppService.cs",
-              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\CarModelAppSer\\CarModelAppService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IOperatorService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\Service\\IOperatorService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\Service\\IOperatorService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\Service\\IOperatorService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\Service\\IOperatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T16:51:49.076Z"
+              "WhenOpened": "2025-01-30T20:38:38.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OperatorService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\OperatorSer\\OperatorService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\OperatorSer\\OperatorService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\OperatorSer\\OperatorService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\OperatorSer\\OperatorService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:37:34.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOperatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\Data\\IOperatorRepository.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\Data\\IOperatorRepository.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\Data\\IOperatorRepository.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\Data\\IOperatorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:35:37.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OperatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\OperatorRepo\\OperatorRepository.cs",
+              "RelativeDocumentMoniker": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\OperatorRepo\\OperatorRepository.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\OperatorRepo\\OperatorRepository.cs",
+              "RelativeToolTip": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\OperatorRepo\\OperatorRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwv1EAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:34:26.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OperatorController.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\OperatorController.cs",
+              "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\OperatorController.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\OperatorController.cs",
+              "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\OperatorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:32:52.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IInspectionLogAppService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Log\\AppService\\IInspectionLogAppService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Log\\AppService\\IInspectionLogAppService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Log\\AppService\\IInspectionLogAppService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Log\\AppService\\IInspectionLogAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:31:55.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarModelController.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Controllers\\CarModelController.cs",
+              "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Controllers\\CarModelController.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Controllers\\CarModelController.cs*",
+              "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Controllers\\CarModelController.cs*",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv3kAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:55:20.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OperatorAppService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\OperatorAppSer\\OperatorAppService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\OperatorAppSer\\OperatorAppService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\OperatorAppSer\\OperatorAppService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\OperatorAppSer\\OperatorAppService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:39:47.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOperatorAppService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\AppService\\IOperatorAppService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\AppService\\IOperatorAppService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\AppService\\IOperatorAppService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Operators\\AppService\\IOperatorAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:45:01.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InspectionLogAppService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionLogAppSer\\InspectionLogAppService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionLogAppSer\\InspectionLogAppService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionLogAppSer\\InspectionLogAppService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionLogAppSer\\InspectionLogAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:30:42.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IInspectionLogService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Log\\Service\\IInspectionLogService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Log\\Service\\IInspectionLogService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Log\\Service\\IInspectionLogService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Log\\Service\\IInspectionLogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:30:02.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InspectionLogService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionLogSer\\InspectionLogService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionLogSer\\InspectionLogService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionLogSer\\InspectionLogService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionLogSer\\InspectionLogService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:29:05.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.Domain.Services.AppService",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\App.Domain.Services.AppService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-30T20:29:00.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "InspectionRequestAppService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionReqAppSer\\InspectionRequestAppService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionReqAppSer\\InspectionRequestAppService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionReqAppSer\\InspectionRequestAppService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionReqAppSer\\InspectionRequestAppService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwFIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:42:09.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IInspectionLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Log\\Data\\IInspectionLogRepository.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Log\\Data\\IInspectionLogRepository.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Log\\Data\\IInspectionLogRepository.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Log\\Data\\IInspectionLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:28:08.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InspectionLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionLogRepo\\InspectionLogRepository.cs",
+              "RelativeDocumentMoniker": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionLogRepo\\InspectionLogRepository.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionLogRepo\\InspectionLogRepository.cs",
+              "RelativeToolTip": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionLogRepo\\InspectionLogRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:26:56.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IInspectionRequestAppService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Request\\AppService\\IInspectionRequestAppService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Request\\AppService\\IInspectionRequestAppService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Request\\AppService\\IInspectionRequestAppService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Request\\AppService\\IInspectionRequestAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:23:26.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IInspectionRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Request\\Service\\IInspectionRequestService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Request\\Service\\IInspectionRequestService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Request\\Service\\IInspectionRequestService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Request\\Service\\IInspectionRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:18:01.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InspectionRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionRequestRepo\\InspectionRequestRepository.cs",
+              "RelativeDocumentMoniker": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionRequestRepo\\InspectionRequestRepository.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionRequestRepo\\InspectionRequestRepository.cs",
+              "RelativeToolTip": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionRequestRepo\\InspectionRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:47:32.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InspectionRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionReqSer\\InspectionRequestService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionReqSer\\InspectionRequestService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionReqSer\\InspectionRequestService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionReqSer\\InspectionRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:47:18.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InspectionRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\InspectionRequestController.cs",
+              "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\InspectionRequestController.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\InspectionRequestController.cs",
+              "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\InspectionRequestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T06:44:25.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IInspectionRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Request\\Data\\IInspectionRequestRepository.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Request\\Data\\IInspectionRequestRepository.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Request\\Data\\IInspectionRequestRepository.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Request\\Data\\IInspectionRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:15:14.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CarModelController.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\CarModelController.cs",
+              "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\CarModelController.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\CarModelController.cs",
+              "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\CarModelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:02:14.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICarModelAppService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\AppService\\ICarModelAppService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\AppService\\ICarModelAppService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\AppService\\ICarModelAppService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\AppService\\ICarModelAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:53:15.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "ICarModelService.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Service\\ICarModelService.cs",
               "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Service\\ICarModelService.cs",
               "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Service\\ICarModelService.cs",
               "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Service\\ICarModelService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T18:35:04.804Z"
+              "WhenOpened": "2025-01-29T18:35:04.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
+              "Title": "CarModelService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarModelSer\\CarModelService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarModelSer\\CarModelService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarModelSer\\CarModelService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarModelSer\\CarModelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:35:23.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CarModelAppService.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\CarModelAppSer\\CarModelAppService.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\CarModelAppSer\\CarModelAppService.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\CarModelAppSer\\CarModelAppService.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\CarModelAppSer\\CarModelAppService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:51:49.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.Endpoints.MVC.HW20",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj",
+              "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj",
+              "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\App.Endpoints.MVC.HW20.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-30T19:46:44.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "CarModelRepository.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\CarModelRepo\\CarModelRepository.cs",
               "RelativeDocumentMoniker": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\CarModelRepo\\CarModelRepository.cs",
               "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\CarModelRepo\\CarModelRepository.cs",
               "RelativeToolTip": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\CarModelRepo\\CarModelRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAADwvykAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwD4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T18:33:54.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 29,
+              "Title": "ICarModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Data\\ICarModelRepository.cs",
+              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Data\\ICarModelRepository.cs",
+              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Data\\ICarModelRepository.cs",
+              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Data\\ICarModelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:33:40.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Program.cs",
               "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Program.cs",
@@ -140,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 32,
               "Title": "ApiKeyMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Middleware\\ApiKeyMiddleware.cs",
               "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Middleware\\ApiKeyMiddleware.cs",
@@ -148,12 +581,11 @@
               "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Middleware\\ApiKeyMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T07:50:05.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T07:50:05.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 33,
               "Title": "MiddlewareExtensions.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Middleware\\MiddlewareExtensions.cs",
               "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Middleware\\MiddlewareExtensions.cs",
@@ -161,25 +593,11 @@
               "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Middleware\\MiddlewareExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T07:51:06.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T07:51:06.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InspectionRequestAppService.cs",
-              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionReqAppSer\\InspectionRequestAppService.cs",
-              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionReqAppSer\\InspectionRequestAppService.cs",
-              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionReqAppSer\\InspectionRequestAppService.cs",
-              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.AppService\\InspectionReqAppSer\\InspectionRequestAppService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:42:09.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 31,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Entity\\Car.cs",
               "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Entity\\Car.cs",
@@ -187,37 +605,11 @@
               "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Entity\\Car.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAawCMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T08:26:15.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T08:26:15.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarModelController.cs",
-              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Controllers\\CarModelController.cs",
-              "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Controllers\\CarModelController.cs",
-              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Controllers\\CarModelController.cs",
-              "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\Controllers\\CarModelController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHwAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:55:20.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InspectionRequestController.cs",
-              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\InspectionRequestController.cs",
-              "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\InspectionRequestController.cs",
-              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\InspectionRequestController.cs",
-              "RelativeToolTip": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Controllers\\InspectionRequestController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:44:25.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 36,
               "Title": "OperationResult.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\OpResult\\OperationResult.cs",
               "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\OpResult\\OperationResult.cs",
@@ -229,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 38,
               "Title": "CarService.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarSer\\CarService.cs",
               "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarSer\\CarService.cs",
@@ -241,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 35,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Program.cs",
               "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoints.MVC.HW20\\Program.cs",
@@ -253,19 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "InspectionRequestService.cs",
-              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionReqSer\\InspectionRequestService.cs",
-              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionReqSer\\InspectionRequestService.cs",
-              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionReqSer\\InspectionRequestService.cs",
-              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\InspectionReqSer\\InspectionRequestService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAcwCsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:47:18.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 34,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\appsettings.json",
               "RelativeDocumentMoniker": "Src\\03-Endpoint\\App.Endpoint.API.HW20\\App.Endpoint.API.HW20\\appsettings.json",
@@ -277,19 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CarModelService.cs",
-              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarModelSer\\CarModelService.cs",
-              "RelativeDocumentMoniker": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarModelSer\\CarModelService.cs",
-              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarModelSer\\CarModelService.cs",
-              "RelativeToolTip": "Src\\01-Domain\\Services\\App.Domain.Services.Service\\CarModelSer\\CarModelService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwC8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T18:35:23.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 37,
               "Title": "CarRepository.cs",
               "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\CarRepo\\CarRepository.cs",
               "RelativeDocumentMoniker": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\CarRepo\\CarRepository.cs",
@@ -298,30 +666,6 @@
               "ViewState": "AgIAABUAAAAAAAAAAAAcwCUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T06:47:19.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "InspectionRequestRepository.cs",
-              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionRequestRepo\\InspectionRequestRepository.cs",
-              "RelativeDocumentMoniker": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionRequestRepo\\InspectionRequestRepository.cs",
-              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionRequestRepo\\InspectionRequestRepository.cs",
-              "RelativeToolTip": "Src\\02-Infrastructure\\DataAccess\\App.Infrastructure.DbAccess.Repository.Ef\\InspectionRequestRepo\\InspectionRequestRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwCsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:47:32.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ICarModelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Data\\ICarModelRepository.cs",
-              "RelativeDocumentMoniker": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Data\\ICarModelRepository.cs",
-              "ToolTip": "C:\\Users\\shaha\\source\\repos\\HW20\\HW-Week20\\Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Data\\ICarModelRepository.cs",
-              "RelativeToolTip": "Src\\01-Domain\\Core\\App.Domain.Core\\Cars\\Data\\ICarModelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T18:33:40.836Z"
             }
           ]
         }

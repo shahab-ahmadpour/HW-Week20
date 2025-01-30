@@ -19,34 +19,34 @@ namespace App.Domain.Services.Service.OperatorSer
            _operatorRepository = operatorRepository;
         }
 
-        public Operator GetOperatorById(int id)
+        public async Task<Operator> GetOperatorByIdAsync(int id)
         {
-            return _operatorRepository.GetById(id);
+            return await _operatorRepository.GetByIdAsync(id);
         }
 
-        public Operator GetOperatorByUsername(string username)
+        public async Task<Operator> GetOperatorByUsernameAsync(string username)
         {
-            return _operatorRepository.GetByUsername(username);
+            return await _operatorRepository.GetByUsernameAsync(username);
         }
 
-        public List<Operator> GetAllOperators()
+        public async Task<List<Operator>> GetAllOperatorsAsync()
         {
-            return _operatorRepository.GetAll();
+            return await _operatorRepository.GetAllAsync();
         }
 
-        public OperationResult AddOperator(Operator op)
+        public async Task<OperationResult> AddOperatorAsync(Operator op)
         {
-            return _operatorRepository.Add(op);
+            return await _operatorRepository.AddAsync(op);
         }
 
-        public OperationResult UpdateOperator(Operator op)
+        public async Task<OperationResult> UpdateOperatorAsync(Operator op)
         {
-            return _operatorRepository.Update(op);
+            return await _operatorRepository.UpdateAsync(op);
         }
 
-        public OperationResult DeleteOperator(int id)
+        public async Task<OperationResult> DeleteOperatorAsync(int id)
         {
-            return _operatorRepository.Delete(id);
+            return await _operatorRepository.DeleteAsync(id);
         }
     }
 }

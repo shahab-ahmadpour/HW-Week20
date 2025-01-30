@@ -10,10 +10,10 @@ namespace App.Domain.Core.Cars.AppService
 {
     public interface ICarModelAppService
     {
-        List<CarModel> GetAllModels();
-        CarModel GetModelById(int id);
-        ServiceResult CreateModel(CarModel carModel);
-        ServiceResult UpdateModel(CarModel carModel);
-        ServiceResult DeleteModel(int id);
+        Task<List<CarModel>> GetAllModelsAsync();
+        Task<CarModel> GetModelByIdAsync(int id);
+        Task<ServiceResult> CreateModelAsync(CarModel carModel);
+        Task<ServiceResult> UpdateModelAsync(CarModel carModel);
+        Task<ServiceResult> DeleteModelAsync(int id);
     }
 }

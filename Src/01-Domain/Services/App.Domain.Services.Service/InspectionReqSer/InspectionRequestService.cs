@@ -19,31 +19,33 @@ namespace App.Domain.Services.Service.InspectionReqSer
             _requestRepository = requestRepository;
         }
 
-        public InspectionRequest GetRequestById(int id)
+        public async Task<InspectionRequest> GetRequestByIdAsync(int id)
         {
-            return _requestRepository.GetById(id);
+            return await _requestRepository.GetByIdAsync(id);
         }
 
-        public List<InspectionRequest> GetAllRequests()
+
+        public async Task<List<InspectionRequest>> GetAllRequestsAsync()
         {
-            return _requestRepository.GetAll();
+            return await _requestRepository.GetAllAsync();
         }
 
-        public OperationResult AddRequest(InspectionRequest request)
+        public async Task<OperationResult> AddRequestAsync(InspectionRequest request)
         {
-            if(System.DateTime.Now.Year - request.Car.ProductionYear > 5)
+            if (System.DateTime.Now.Year - request.Car.ProductionYear > 5)
                 return OperationResult.Failure("Car is older than 5 years.");
 
-            return _requestRepository.Add(request);
-        }
-        public OperationResult UpdateRequest(InspectionRequest request)
-        {
-            return _requestRepository.Update(request);
+            return await _requestRepository.AddAsync(request);
         }
 
-        public OperationResult DeleteRequest(int id)
+        public async Task<OperationResult> UpdateRequestAsync(InspectionRequest request)
         {
-            return _requestRepository.Delete(id);
+            return await _requestRepository.UpdateAsync(request);
+        }
+
+        public async Task<OperationResult> DeleteRequestAsync(int id)
+        {
+            return await _requestRepository.DeleteAsync(id);
         }
     }
 }

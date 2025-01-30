@@ -2,6 +2,7 @@
 using App.Domain.Core.Log.Entity;
 using App.Domain.Core.OpResult;
 using App.Infrastructure.Db.SqlServer.Ef;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,30 +20,28 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.InspectionLogRepo
             _context = context;
         }
 
-        public InspectionLog GetById(int id)
+        public async Task<InspectionLog> GetByIdAsync(int id)
         {
-            return _context.InspectionLogs.FirstOrDefault(x => x.Id == id);
+            return await _context.InspectionLogs.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public List<InspectionLog> GetAll()
+        public async Task<List<InspectionLog>> GetAllAsync()
         {
-            return _context.InspectionLogs.ToList();
+            return await _context.InspectionLogs.ToListAsync();
         }
 
-        public OperationResult Add (InspectionLog log)
+        public async Task<OperationResult> AddAsync(InspectionLog log)
         {
             try
             {
-                _context.InspectionLogs.Add(log);
-                _context.SaveChanges();
+                await _context.InspectionLogs.AddAsync(log);
+                await _context.SaveChangesAsync();
                 return OperationResult.Success("Log added successfully.");
             }
-            catch(System.Exception ex)
+            catch (Exception ex)
             {
                 return OperationResult.Failure($"Error adding inspection log: {ex.Message}");
             }
-
-
         }
 
     }

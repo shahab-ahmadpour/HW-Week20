@@ -19,45 +19,46 @@ namespace App.Domain.Services.AppService.CarModelAppSer
             _carModelService = carModelService;
         }
 
-        public List<CarModel> GetAllModels()
+        public async Task<List<CarModel>> GetAllModelsAsync()
         {
-            return _carModelService.GetAllModels();
+            return await _carModelService.GetAllModelsAsync();
         }
 
-        public CarModel GetModelById(int id)
+        public async Task<CarModel> GetModelByIdAsync(int id)
         {
-            return _carModelService.GetModelById(id);
+            return await _carModelService.GetModelByIdAsync(id);
         }
-        public ServiceResult CreateModel(CarModel carModel)
+
+        public async Task<ServiceResult> CreateModelAsync(CarModel carModel)
         {
             if (string.IsNullOrWhiteSpace(carModel.Name))
             {
                 return new ServiceResult(false, "نام مدل خودرو نمی‌تواند خالی باشد.");
             }
 
-            _carModelService.CreateModel(carModel);
+            await _carModelService.CreateModelAsync(carModel);
             return new ServiceResult(true, "مدل خودرو با موفقیت اضافه شد.");
         }
 
-        public ServiceResult UpdateModel(CarModel carModel)
+        public async Task<ServiceResult> UpdateModelAsync(CarModel carModel)
         {
-            if (_carModelService.IsCarModelUsed(carModel.Id))
+            if (await _carModelService.IsCarModelUsedAsync(carModel.Id))
             {
                 return new ServiceResult(false, "این مدل خودرو در سیستم استفاده شده است و نمی‌توان آن را ویرایش کرد.");
             }
 
-            _carModelService.UpdateModel(carModel);
+            await _carModelService.UpdateModelAsync(carModel);
             return new ServiceResult(true, "مدل خودرو ویرایش شد.");
         }
 
-        public ServiceResult DeleteModel(int id)
+        public async Task<ServiceResult> DeleteModelAsync(int id)
         {
-            if (_carModelService.IsCarModelUsed(id))
+            if (await _carModelService.IsCarModelUsedAsync(id))
             {
                 return new ServiceResult(false, "این مدل خودرو در سیستم استفاده شده است و نمی‌توان آن را حذف کرد.");
             }
 
-            _carModelService.DeleteModel(id);
+            await _carModelService.DeleteModelAsync(id);
             return new ServiceResult(true, "مدل خودرو حذف شد.");
         }
     }

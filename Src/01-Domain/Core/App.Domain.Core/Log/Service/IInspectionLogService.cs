@@ -10,8 +10,8 @@ namespace App.Domain.Core.Log.Service
 {
     public interface IInspectionLogService
     {
-        InspectionLog GetLogById(int id);
-        List<InspectionLog> GetAllLogs();
-        OperationResult AddLog(InspectionLog log);
+        Task<InspectionLog> GetLogByIdAsync(int id);
+        Task<List<InspectionLog>> GetAllLogsAsync();
+        Task<OperationResult> AddLogAsync(InspectionLog log);
     }
 }

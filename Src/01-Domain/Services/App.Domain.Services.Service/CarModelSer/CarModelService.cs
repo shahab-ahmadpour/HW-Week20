@@ -18,33 +18,34 @@ namespace App.Domain.Services.Service.CarModelSer
             _carModelRepository = carModelRepository;
         }
 
-        public List<CarModel> GetAllModels()
+        public async Task<List<CarModel>> GetAllModelsAsync()
         {
-            return _carModelRepository.GetAll();
+            return await _carModelRepository.GetAllAsync();
         }
 
-        public CarModel GetModelById(int id)
+        public async Task<CarModel> GetModelByIdAsync(int id)
         {
-            return _carModelRepository.GetById(id);
+            return await _carModelRepository.GetByIdAsync(id);
         }
 
-        public void CreateModel(CarModel carModel)
+        public async Task CreateModelAsync(CarModel carModel)
         {
-            _carModelRepository.Add(carModel);
+            await _carModelRepository.AddAsync(carModel);
         }
 
-        public void UpdateModel(CarModel carModel)
+        public async Task UpdateModelAsync(CarModel carModel)
         {
-            _carModelRepository.Update(carModel);
+            await _carModelRepository.UpdateAsync(carModel);
         }
 
-        public void DeleteModel(int id)
+        public async Task DeleteModelAsync(int id)
         {
-            _carModelRepository.Delete(id);
+            await _carModelRepository.DeleteAsync(id);
         }
-        public bool IsCarModelUsed(int id)
+
+        public async Task<bool> IsCarModelUsedAsync(int id)
         {
-            return _carModelRepository.IsCarModelUsed(id);
+            return await _carModelRepository.IsCarModelUsedAsync(id);
         }
     }
 }

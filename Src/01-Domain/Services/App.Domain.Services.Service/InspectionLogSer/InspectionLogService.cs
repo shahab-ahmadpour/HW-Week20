@@ -18,21 +18,19 @@ namespace App.Domain.Services.Service.InspectionLogSer
         {
             _logRepository = logRepository;
         }
-
-        public InspectionLog GetLogById(int id)
+        public async Task<InspectionLog> GetLogByIdAsync(int id)
         {
-            return _logRepository.GetById(id);
+            return await _logRepository.GetByIdAsync(id);
         }
 
-        public List<InspectionLog> GetAllLogs()
+        public async Task<List<InspectionLog>> GetAllLogsAsync()
         {
-            return _logRepository.GetAll();
+            return await _logRepository.GetAllAsync();
         }
 
-        public OperationResult AddLog(InspectionLog log)
+        public async Task<OperationResult> AddLogAsync(InspectionLog log)
         {
-            return _logRepository.Add(log);
+            return await _logRepository.AddAsync(log);
         }
-
     }
 }

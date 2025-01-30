@@ -21,22 +21,26 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.InspectionRequestRepo
 
         }
 
-        public InspectionRequest GetById(int id)
+        public async Task<InspectionRequest> GetByIdAsync(int id)
         {
-            return _context.InspectionRequests.FirstOrDefault(x => x.Id == id);
+            return await _context.InspectionRequests
+                .Include(r => r.Car)
+                .FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public List<InspectionRequest> GetAll()
+        public async Task<List<InspectionRequest>> GetAllAsync()
         {
-            return _context.InspectionRequests.Include(r => r.Car).ToList();
+            return await _context.InspectionRequests
+                .Include(r => r.Car)
+                .ToListAsync();
         }
 
-        public OperationResult Add(InspectionRequest request)
+        public async Task<OperationResult> AddAsync(InspectionRequest request)
         {
             try
             {
-                _context.InspectionRequests.Add(request);
-                _context.SaveChanges();
+                await _context.InspectionRequests.AddAsync(request);
+                await _context.SaveChangesAsync();
                 return OperationResult.Success("Inspection request added successfully.");
             }
             catch (System.Exception ex)
@@ -45,12 +49,12 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.InspectionRequestRepo
             }
         }
 
-        public OperationResult Update(InspectionRequest request)
+        public async Task<OperationResult> UpdateAsync(InspectionRequest request)
         {
             try
             {
                 _context.InspectionRequests.Update(request);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return OperationResult.Success("Inspection request updated successfully.");
             }
             catch (System.Exception ex)
@@ -59,16 +63,16 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.InspectionRequestRepo
             }
         }
 
-        public OperationResult Delete(int id)
+        public async Task<OperationResult> DeleteAsync(int id)
         {
             try
             {
-                var request = _context.InspectionRequests.FirstOrDefault(r => r.Id == id);
+                var request = await _context.InspectionRequests.FirstOrDefaultAsync(r => r.Id == id);
                 if (request == null)
                     return OperationResult.Failure("Inspection request not found.");
 
                 _context.InspectionRequests.Remove(request);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return OperationResult.Success("Inspection request deleted successfully.");
             }
             catch (System.Exception ex)

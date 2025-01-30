@@ -10,11 +10,11 @@ namespace App.Domain.Core.Operators.Data
 {
     public interface IOperatorRepository
     {
-        Operator GetById(int id);
-        Operator GetByUsername(string username);
-        List<Operator> GetAll();
-        OperationResult Add(Operator operatorEntity);
-        OperationResult Update(Operator operatorEntity);
-        OperationResult Delete(int id);
+        Task<Operator> GetByIdAsync(int id);
+        Task<Operator> GetByUsernameAsync(string username);
+        Task<List<Operator>> GetAllAsync();
+        Task<OperationResult> AddAsync(Operator operatorEntity);
+        Task<OperationResult> UpdateAsync(Operator operatorEntity);
+        Task<OperationResult> DeleteAsync(int id);
     }
 }

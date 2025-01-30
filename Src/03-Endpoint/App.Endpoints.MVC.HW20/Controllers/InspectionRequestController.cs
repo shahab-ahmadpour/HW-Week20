@@ -19,17 +19,17 @@ namespace App.Endpoints.MVC.HW20.Controllers
         }
 
         [HttpGet]
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewBag.CarModels = _carModelAppService.GetAllModels();
+            ViewBag.CarModels = await _carModelAppService.GetAllModelsAsync();
             return View(new InspectionRequest());
         }
 
         [HttpPost]
-        public IActionResult Create(InspectionRequest request)
+        public async Task<IActionResult> Create(InspectionRequest request)
         {
-            ViewBag.CarModels = _carModelAppService.GetAllModels();
-            var result = _requestAppService.CreateRequest(request);
+            ViewBag.CarModels = await _carModelAppService.GetAllModelsAsync();
+            var result = await _requestAppService.CreateRequestAsync(request);
 
             if (!result.IsSuccess)
             {

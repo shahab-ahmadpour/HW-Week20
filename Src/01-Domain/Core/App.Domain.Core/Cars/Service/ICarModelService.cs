@@ -9,12 +9,12 @@ namespace App.Domain.Core.Cars.Service
 {
     public interface ICarModelService
     {
-        List<CarModel> GetAllModels();
-        CarModel GetModelById(int id);
-        void CreateModel(CarModel carModel);
-        void UpdateModel(CarModel carModel);
-        void DeleteModel(int id);
-        bool IsCarModelUsed(int id);
+        Task<List<CarModel>> GetAllModelsAsync();
+        Task<CarModel> GetModelByIdAsync(int id);
+        Task CreateModelAsync(CarModel carModel);
+        Task UpdateModelAsync(CarModel carModel);
+        Task DeleteModelAsync(int id);
+        Task<bool> IsCarModelUsedAsync(int id);
 
     }
 }

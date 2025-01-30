@@ -10,10 +10,10 @@ namespace App.Domain.Core.Operators.AppService
 {
     public interface IOperatorAppService
     {
-        Operator GetOperatorDetails(int id);
-        List<Operator> GetAllOperators();
-        OperationResult CreateOperator(Operator operatorEntity);
-        OperationResult UpdateOperator(Operator operatorEntity);
-        OperationResult RemoveOperator(int id);
+        Task<Operator> GetOperatorDetailsAsync(int id);
+        Task<List<Operator>> GetAllOperatorsAsync();
+        Task<OperationResult> CreateOperatorAsync(Operator operatorEntity);
+        Task<OperationResult> UpdateOperatorAsync(Operator operatorEntity);
+        Task<OperationResult> RemoveOperatorAsync(int id);
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using App.Domain.Core.OpResult;
+using Microsoft.EntityFrameworkCore;
 
 namespace App.Infrastructure.DbAccess.Repository.Ef.OperatorRepo
 {
@@ -19,42 +20,41 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.OperatorRepo
             _context = context;
             
         }
-
-        public Operator GetById(int id)
+        public async Task<Operator> GetByIdAsync(int id)
         {
-            return _context.Operators.FirstOrDefault(x => x.Id == id);
+            return await _context.Operators.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public Operator GetByUsername(string username)
+        public async Task<Operator> GetByUsernameAsync(string username)
         {
-            return _context.Operators.FirstOrDefault(x => x.Username == username);
+            return await _context.Operators.FirstOrDefaultAsync(x => x.Username == username);
         }
 
-        public List<Operator> GetAll()
+        public async Task<List<Operator>> GetAllAsync()
         {
-            return _context.Operators.ToList();
+            return await _context.Operators.ToListAsync();
         }
 
-        public OperationResult Add(Operator op)
+        public async Task<OperationResult> AddAsync(Operator op)
         {
             try
             {
-                _context.Operators.Add(op);
-                _context.SaveChanges();
+                await _context.Operators.AddAsync(op);
+                await _context.SaveChangesAsync();
                 return OperationResult.Success("Operator added successfully.");
             }
-            catch(System.Exception ex)
+            catch (System.Exception ex)
             {
                 return OperationResult.Failure($"Error adding operator: {ex.Message}");
             }
         }
 
-        public OperationResult Update (Operator op)
+        public async Task<OperationResult> UpdateAsync(Operator op)
         {
             try
             {
                 _context.Operators.Update(op);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return OperationResult.Success("Operator updated successfully.");
             }
             catch (System.Exception ex)
@@ -63,15 +63,16 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.OperatorRepo
             }
         }
 
-        public OperationResult Delete(int id)
+        public async Task<OperationResult> DeleteAsync(int id)
         {
             try
             {
-                var operatorEntity = _context.Operators.FirstOrDefault(x => x.Id == id);
+                var operatorEntity = await _context.Operators.FirstOrDefaultAsync(x => x.Id == id);
                 if (operatorEntity == null)
                     return OperationResult.Failure("Operator not found.");
+
                 _context.Operators.Remove(operatorEntity);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return OperationResult.Success("Operator deleted successfully.");
             }
             catch (System.Exception ex)
@@ -79,6 +80,5 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.OperatorRepo
                 return OperationResult.Failure($"Error deleting operator: {ex.Message}");
             }
         }
-
     }
 }

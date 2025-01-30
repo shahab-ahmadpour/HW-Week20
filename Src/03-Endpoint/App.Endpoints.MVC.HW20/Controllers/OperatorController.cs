@@ -24,9 +24,9 @@ namespace App.Endpoints.MVC.HW20.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(LoginViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
-            var operators = _operatorAppService.GetAllOperators();
+            var operators = await _operatorAppService.GetAllOperatorsAsync();
             var operatorEntity = operators.FirstOrDefault(op =>
                 op.Username == model.Username && op.Password == model.Password);
 
@@ -39,38 +39,36 @@ namespace App.Endpoints.MVC.HW20.Controllers
             return View(model);
         }
 
-
-        public IActionResult Dashboard()
+        public async Task<IActionResult> Dashboard()
         {
-            var requests = _requestAppService.GetAllRequests()
-                .OrderBy(x => x.Date)
-                .ToList();
+            var requests = await _requestAppService.GetAllRequestsAsync();
+            var sortedRequests = requests.OrderBy(x => x.Date).ToList();
 
-            return View(requests);
+            return View(sortedRequests);
         }
 
         [HttpPost]
-        public IActionResult Approve(int id)
+        public async Task<IActionResult> Approve(int id)
         {
-            var request = _requestAppService.GetRequestDetails(id);
+            var request = await _requestAppService.GetRequestDetailsAsync(id);
             if (request == null)
                 return NotFound();
 
             request.Status = RequestStatus.Approved;
-            _requestAppService.UpdateRequest(request);
+            await _requestAppService.UpdateRequestAsync(request);
 
             return RedirectToAction("Dashboard");
         }
 
         [HttpPost]
-        public IActionResult Reject(int id)
+        public async Task<IActionResult> Reject(int id)
         {
-            var request = _requestAppService.GetRequestDetails(id);
+            var request = await _requestAppService.GetRequestDetailsAsync(id);
             if (request == null)
                 return NotFound();
 
             request.Status = RequestStatus.Rejected;
-            _requestAppService.UpdateRequest(request);
+            await _requestAppService.UpdateRequestAsync(request);
 
             return RedirectToAction("Dashboard");
         }

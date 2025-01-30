@@ -10,10 +10,10 @@ namespace App.Domain.Core.Request.Data
 {
     public interface IInspectionRequestRepository
     {
-        InspectionRequest GetById(int id);
-        List<InspectionRequest> GetAll();
-        OperationResult Add(InspectionRequest request);
-        OperationResult Update(InspectionRequest request);
-        OperationResult Delete(int id);
+        Task<InspectionRequest> GetByIdAsync(int id);
+        Task<List<InspectionRequest>> GetAllAsync();
+        Task<OperationResult> AddAsync(InspectionRequest request);
+        Task<OperationResult> UpdateAsync(InspectionRequest request);
+        Task<OperationResult> DeleteAsync(int id);
     }
 }

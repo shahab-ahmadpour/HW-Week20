@@ -2,6 +2,8 @@
 using App.Domain.Core.Cars.Entity;
 using App.Endpoints.MVC.HW20.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace App.Endpoints.MVC.HW20.Controllers
 {
@@ -14,32 +16,34 @@ namespace App.Endpoints.MVC.HW20.Controllers
             _carModelAppService = carModelAppService;
         }
 
-        public IActionResult Index()
+        /// <summary>
+        /// نمایش لیست مدل‌های خودرو
+        /// </summary>
+        public async Task<IActionResult> Index()
         {
-            var carModels = _carModelAppService.GetAllModels();
-
-            if (carModels == null)
-            {
-                carModels = new List<CarModel>();
-            }
+            var carModels = await _carModelAppService.GetAllModelsAsync();
 
             var viewModel = new CarModelViewModel
             {
-                CarModels = carModels
+                CarModels = carModels ?? new List<CarModel>()
             };
 
             return View(viewModel);
         }
 
-
-
+        /// <summary>
+        /// نمایش فرم ایجاد مدل جدید
+        /// </summary>
         public IActionResult Create()
         {
             return View();
         }
 
+        /// <summary>
+        /// ایجاد مدل جدید خودرو
+        /// </summary>
         [HttpPost]
-        public IActionResult Create(CarModel model)
+        public async Task<IActionResult> Create(CarModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -47,13 +51,16 @@ namespace App.Endpoints.MVC.HW20.Controllers
                 return View(model);
             }
 
-            _carModelAppService.CreateModel(model);
+            await _carModelAppService.CreateModelAsync(model);
             return RedirectToAction("Index");
         }
 
-        public IActionResult Edit(int id)
+        /// <summary>
+        /// نمایش فرم ویرایش مدل خودرو
+        /// </summary>
+        public async Task<IActionResult> Edit(int id)
         {
-            var model = _carModelAppService.GetModelById(id);
+            var model = await _carModelAppService.GetModelByIdAsync(id);
             if (model == null)
             {
                 return NotFound();
@@ -61,8 +68,11 @@ namespace App.Endpoints.MVC.HW20.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// ویرایش مدل خودرو
+        /// </summary>
         [HttpPost]
-        public IActionResult Edit(CarModel model)
+        public async Task<IActionResult> Edit(CarModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -70,13 +80,16 @@ namespace App.Endpoints.MVC.HW20.Controllers
                 return View(model);
             }
 
-            _carModelAppService.UpdateModel(model);
+            await _carModelAppService.UpdateModelAsync(model);
             return RedirectToAction("Index");
         }
 
-        public IActionResult Delete(int id)
+        /// <summary>
+        /// نمایش فرم تأیید حذف مدل خودرو
+        /// </summary>
+        public async Task<IActionResult> Delete(int id)
         {
-            var model = _carModelAppService.GetModelById(id);
+            var model = await _carModelAppService.GetModelByIdAsync(id);
             if (model == null)
             {
                 return NotFound();
@@ -84,10 +97,13 @@ namespace App.Endpoints.MVC.HW20.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// حذف مدل خودرو
+        /// </summary>
         [HttpPost]
-        public IActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            _carModelAppService.DeleteModel(id);
+            await _carModelAppService.DeleteModelAsync(id);
             return RedirectToAction("Index");
         }
     }

@@ -10,10 +10,10 @@ namespace App.Domain.Core.Request.Service
 {
     public interface IInspectionRequestService
     {
-        InspectionRequest GetRequestById(int id);
-        List<InspectionRequest> GetAllRequests();
-        OperationResult AddRequest(InspectionRequest request);
-        OperationResult UpdateRequest(InspectionRequest request);
-        OperationResult DeleteRequest(int id);
+        Task<InspectionRequest> GetRequestByIdAsync(int id);
+        Task<List<InspectionRequest>> GetAllRequestsAsync();
+        Task<OperationResult> AddRequestAsync(InspectionRequest request);
+        Task<OperationResult> UpdateRequestAsync(InspectionRequest request);
+        Task<OperationResult> DeleteRequestAsync(int id);
     }
 }

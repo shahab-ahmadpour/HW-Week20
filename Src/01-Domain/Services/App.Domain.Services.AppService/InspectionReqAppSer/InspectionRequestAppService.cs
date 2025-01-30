@@ -28,60 +28,59 @@ namespace App.Domain.Services.AppService.InspectionReqAppSer
             _appSettings = appSettings.Value;
         }
 
-        public InspectionRequest GetRequestDetails(int id)
+        public async Task<InspectionRequest> GetRequestDetailsAsync(int id)
         {
-            return _requestService.GetRequestById(id);
+            return await _requestService.GetRequestByIdAsync(id);
         }
 
-        public List<InspectionRequest> GetAllRequests()
+        public async Task<List<InspectionRequest>> GetAllRequestsAsync()
         {
-            return _requestService.GetAllRequests();
+            return await _requestService.GetAllRequestsAsync();
         }
 
-        public OperationResult CreateRequest(InspectionRequest request)
+        public async Task<OperationResult> CreateRequestAsync(InspectionRequest request)
         {
             var today = DateTime.Now;
             bool isEvenDay = today.Day % 2 == 0;
 
             if (string.IsNullOrEmpty(request.Car.Manufacturers))
             {
-                return ErrorResult(request, "شرکت سازنده انتخاب نشده است.");
+                return await ErrorResultAsync(request, "شرکت سازنده انتخاب نشده است.");
             }
 
             if ((isEvenDay && request.Car.Manufacturers != "IranKhodro") ||
                 (!isEvenDay && request.Car.Manufacturers != "Saipa"))
             {
-                return ErrorResult(request, $"در روزهای {(isEvenDay ? "زوج" : "فرد")} فقط خودروهای {(isEvenDay ? "ایران‌خودرو" : "سایپا")} می‌توانند ثبت درخواست کنند.");
+                return await ErrorResultAsync(request, $"در روزهای {(isEvenDay ? "زوج" : "فرد")} فقط خودروهای {(isEvenDay ? "ایران‌خودرو" : "سایپا")} می‌توانند ثبت درخواست کنند.");
             }
 
+            var allRequests = await _requestService.GetAllRequestsAsync();
             int capacity = isEvenDay ? _appSettings.CapacityForEvenDays : _appSettings.CapacityForOddDays;
-            int currentRequests = _requestService.GetAllRequests().Count(r => r.Date.Date == today.Date);
+            int currentRequests = allRequests.Count(r => r.Date.Date == today.Date);
 
             if (currentRequests >= capacity)
             {
-                return ErrorResult(request, "ظرفیت امروز تکمیل شده است.");
+                return await ErrorResultAsync(request, "ظرفیت امروز تکمیل شده است.");
             }
 
             if ((today.Year - request.Car.ProductionYear) > 5)
             {
-                return ErrorResult(request, "خودرو شما به دلیل عمر بالای 5 سال نمی‌تواند ثبت درخواست کند.");
+                return await ErrorResultAsync(request, "خودرو شما به دلیل عمر بالای 5 سال نمی‌تواند ثبت درخواست کند.");
             }
 
-            bool existingRequest = _requestService.GetAllRequests()
-                .Any(r => r.Car.LicensePlate == request.Car.LicensePlate && r.Date.Year == today.Year);
-
+            bool existingRequest = allRequests.Any(r => r.Car.LicensePlate == request.Car.LicensePlate && r.Date.Year == today.Year);
             if (existingRequest)
             {
-                return ErrorResult(request, $"این خودرو با پلاک {request.Car.LicensePlate} قبلاً در سال جاری درخواست ثبت کرده است.");
+                return await ErrorResultAsync(request, $"این خودرو با پلاک {request.Car.LicensePlate} قبلاً در سال جاری درخواست ثبت کرده است.");
             }
 
             request.Date = today;
-            return _requestService.AddRequest(request);
+            return await _requestService.AddRequestAsync(request);
         }
 
-        private OperationResult ErrorResult(InspectionRequest request, string message)
+        private async Task<OperationResult> ErrorResultAsync(InspectionRequest request, string message)
         {
-            _logAppService.CreateLog(new InspectionLog
+            await _logAppService.CreateLogAsync(new InspectionLog
             {
                 LicensePlate = request.Car.LicensePlate,
                 Reason = message,
@@ -91,16 +90,15 @@ namespace App.Domain.Services.AppService.InspectionReqAppSer
             return new OperationResult(false, message);
         }
 
-        public OperationResult UpdateRequest(InspectionRequest request)
+        public async Task<OperationResult> UpdateRequestAsync(InspectionRequest request)
         {
-            return _requestService.UpdateRequest(request);
+            return await _requestService.UpdateRequestAsync(request);
         }
 
-        public OperationResult RemoveRequest(int id)
+        public async Task<OperationResult> RemoveRequestAsync(int id)
         {
-            return _requestService.DeleteRequest(id);
+            return await _requestService.DeleteRequestAsync(id);
         }
-
 
     }
 }

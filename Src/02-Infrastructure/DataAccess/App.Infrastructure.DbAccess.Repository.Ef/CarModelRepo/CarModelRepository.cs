@@ -1,6 +1,7 @@
 ﻿using App.Domain.Core.Cars.Data;
 using App.Domain.Core.Cars.Entity;
 using App.Infrastructure.Db.SqlServer.Ef;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,50 +19,50 @@ namespace App.Infrastructure.DbAccess.Repository.Ef.CarModelRepo
             _dbContext = dbContext;
         }
 
-        public List<CarModel> GetAll()
+        public async Task<List<CarModel>> GetAllAsync()
         {
-            return _dbContext.CarModels.ToList();
+            return await _dbContext.CarModels.ToListAsync();
         }
 
-        public CarModel GetById(int id)
+        public async Task<CarModel> GetByIdAsync(int id)
         {
-            return _dbContext.CarModels.FirstOrDefault(x => x.Id == id);
+            return await _dbContext.CarModels.FirstOrDefaultAsync(x => x.Id == id);
         }
-        public void Add(CarModel carModel)
+        public async Task AddAsync(CarModel carModel)
         {
-            _dbContext.CarModels.Add(carModel);
-            _dbContext.SaveChanges();
+           await _dbContext.CarModels.AddAsync(carModel);
+           await _dbContext.SaveChangesAsync();
         }
 
-        public void Update(CarModel carModel)
+        public async Task UpdateAsync(CarModel carModel)
         {
-            var existingCarModel = _dbContext.CarModels.FirstOrDefault(c => c.Id == carModel.Id);
+            var existingCarModel = await _dbContext.CarModels.FirstOrDefaultAsync(c => c.Id == carModel.Id);
 
             if (existingCarModel != null) 
             {
                 existingCarModel.Name = carModel.Name;
-                _dbContext.SaveChanges();
+                await _dbContext.SaveChangesAsync();
             }
         }
 
 
-        public void Delete(int id)
+        public async Task DeleteAsync(int id)
         {
-            var model = _dbContext.CarModels.Find(id);
+            var model = await _dbContext.CarModels.FindAsync(id);
             if (model != null)
             {
                 _dbContext.CarModels.Remove(model);
-                _dbContext.SaveChanges();
+                await _dbContext.SaveChangesAsync();
             }
         }
-        public bool IsCarModelUsed(int carModelId)
+        public async Task<bool> IsCarModelUsedAsync(int carModelId)
         {
-            var carModel = _dbContext.CarModels.FirstOrDefault(c => c.Id == carModelId);
+            var carModel = await _dbContext.CarModels.FirstOrDefaultAsync(c => c.Id == carModelId);
 
             if (carModel == null)
                 return false;
 
-            return _dbContext.InspectionRequests.Any(r => r.Car.Model == carModel.Name);
+            return await _dbContext.InspectionRequests.AnyAsync(r => r.Car.Model == carModel.Name);
         }
 
     }

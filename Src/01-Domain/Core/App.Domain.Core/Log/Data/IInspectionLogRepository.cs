@@ -10,8 +10,8 @@ namespace App.Domain.Core.Log.Data
 {
     public interface IInspectionLogRepository
     {
-        InspectionLog GetById(int id);
-        List<InspectionLog> GetAll();
-        OperationResult Add(InspectionLog log);
+        Task<InspectionLog> GetByIdAsync(int id);
+        Task<List<InspectionLog>> GetAllAsync();
+        Task<OperationResult> AddAsync(InspectionLog log);
     }
 }

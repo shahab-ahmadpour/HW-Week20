@@ -19,28 +19,29 @@ namespace App.Domain.Services.AppService.OperatorAppSer
             _operatorService = operatorService;
         }
 
-        public Operator GetOperatorDetails(int id)
+        public async Task<Operator> GetOperatorDetailsAsync(int id)
         {
-            return _operatorService.GetOperatorById(id);
-        }
-        public List<Operator> GetAllOperators()
-        {
-            return _operatorService.GetAllOperators();
+            return await _operatorService.GetOperatorByIdAsync(id);
         }
 
-        public OperationResult CreateOperator(Operator op)
+        public async Task<List<Operator>> GetAllOperatorsAsync()
         {
-            return _operatorService.AddOperator(op);
+            return await _operatorService.GetAllOperatorsAsync();
         }
 
-        public OperationResult UpdateOperator(Operator op)
+        public async Task<OperationResult> CreateOperatorAsync(Operator op)
         {
-            return _operatorService.UpdateOperator(op);
+            return await _operatorService.AddOperatorAsync(op);
         }
 
-        public OperationResult RemoveOperator(int id)
+        public async Task<OperationResult> UpdateOperatorAsync(Operator op)
         {
-            return _operatorService.DeleteOperator(id);
+            return await _operatorService.UpdateOperatorAsync(op);
+        }
+
+        public async Task<OperationResult> RemoveOperatorAsync(int id)
+        {
+            return await _operatorService.DeleteOperatorAsync(id);
         }
     }
 }
